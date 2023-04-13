@@ -11,7 +11,7 @@ body{
     margin: 20px;
 }
 .bg-img{
-    background: url(pantai.jpg);
+    background-image: url('../img/pantai.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
