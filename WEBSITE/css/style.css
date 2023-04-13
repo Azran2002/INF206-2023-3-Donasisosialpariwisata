@@ -208,7 +208,7 @@ select:focus {
     border-radius: 20px;
     margin-top: 10px;
 }
-.container {
+.container2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -235,15 +235,10 @@ select:focus {
     border: 1px solid black;
     margin-right: 20px;
 }
-.kotak img{
+kotak img{
     width: 100%;
     height: 100%;
 }
-
-
-
-/* css index */
-
 * {
 	padding:0;
 	margin:0;
@@ -409,4 +404,119 @@ footer {
 		margin-bottom: 20px;
 	}
 }
+.upload{
+    border: 1px solid black; 
+    box-sizing: border-box; 
+    padding: 20px; 
+    width: 60%;
+    margin: 20px auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background: linear-gradient(to top left, #97f0ee 0%, #77b4e9 100%);
+  }
+  .tomupload button {
+    background-color: #00e5ff; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    position: relative; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+  }
+  
+  .tomupload button:hover {
+    background-color: #003cff; 
+    cursor: pointer; 
+  }
+  .updes{
+    font-size: 26px;
+    color: #4ffb05;
+  }
+  .fix{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid black; 
+    border-radius: 20px;
+}
 
+.fix span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.fix input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.fit{
+    position: relative;
+    height: 60px;
+    width: 45%;
+    display: flex;
+}
+
+.fit span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.fit input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.space{
+    margin-top: 16px;
+}
+.updes{
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .daftarpro{
+    border: 2px solid black;
+    box-sizing: border-box; 
+    padding: 20px; 
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background: linear-gradient(to top left, #97f0ee 0%, #77b4e9 100%);
+  }
+  .namapro{
+    border: 1px solid white;
+    font-size: 30px;
+  }
+  .deskpro{
+    border: 1px solid white;
+    font-size: 18px;
+  }
+  .penjelas{
+    border: 2px solid black;
+    box-sizing: border-box; 
+    padding: 20px; 
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background: linear-gradient(to top left, #97a3f0 0%, #8877e9 100%);
+  }
+  
